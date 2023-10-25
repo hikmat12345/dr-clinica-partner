@@ -1,0 +1,33 @@
+.payment-i {
+    color: #9ABC66;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+  .card-success {
+    background: white;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .checkicon{ 
+    display: flex;
+    flex-direction: row;
+     color: #9ABC66; 
+     margin:0 auto;
+     font-size: large;
+     align-items: center;
+  }
+.successfulcard{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+}
+.successbtn {
+  background-color: cornflowerblue;
+  color: white;
+  width: 70px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}

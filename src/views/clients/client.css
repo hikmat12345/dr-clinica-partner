@@ -1,0 +1,24 @@
+.popup-box {
+  left: 30% !important;
+  right: 30% !important;
+}
+ 
+.dr-client-Info h3 {
+  font-weight: bold;
+  text-align: center;
+  padding-right: 31px;
+}
+.dr-client-Info li{
+  padding-bottom: 20px;
+}
+.dr-client-Info {
+  padding: 1rem 1rem;
+  min-width: 400px;
+}
+
+.dr-client-Info i{
+  font-size: 20px;
+}
+.dr-client-Info li p{
+  text-align: center;
+}

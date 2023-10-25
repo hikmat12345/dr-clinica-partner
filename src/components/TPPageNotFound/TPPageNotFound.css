@@ -1,0 +1,7 @@
+ 
+.fae--page-not-found-main-container {
+  display:flex;
+  justify-content: center;
+  align-content :center;
+  flex-direction: column;
+}

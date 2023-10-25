@@ -1,0 +1,119 @@
+.Root-root {
+    border: 1px solid gainsboro;
+    background-color: white;
+    padding: 6px 5px !important;
+    border-radius: 1px;
+    margin-right: 12px !important;
+}
+.NavigationButton-button {
+    background-color: #f1efef;
+    border-radius: 7px;
+    margin-left: 12px;
+    border-radius: 2px;
+    padding: 5px;
+    color: black !important;
+}
+tr:first-of-type .css-bcntj2-MuiTableCell-root.Cell-horizontalCell {
+     border: none;
+}
+.providerimage {
+    width: 5rem !important;
+    height: 5rem;
+}
+.css-1iqhc3f-MuiFormControl-root { 
+     margin: 1px 20px 0px 0px !important;
+}
+.VerticalAppointment-textContainer{
+    display: none;
+}
+.tr:last-child .css-ykqawh-MuiTableCell-root.Cell-cell{
+    display: none;
+}
+.NavigationButton-button {
+    background-color: #f1efef;
+    border-radius: 7px;
+    margin-left: 12px;
+    border-radius: 2px;
+    padding: 5px;
+    color: black;
+}
+.css-1avkkmd.Container-container{
+    display: none !important;
+}
+.css-1ps6pg7-MuiPaper-root {
+    box-shadow: none !important;
+ }
+.css-1b7ni76-MuiToolbar-root.Toolbar-toolbar {
+    background-color: #f2f2f7;
+    box-shadow: none;
+}
+.ca-tooltip{
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+.VerticalAppointment-title div { 
+    text-align: left;
+}
+.OpenButton-textButton {
+    color: black;
+}
+ .Cell-text { 
+    margin: auto;
+    display: block !important;
+    text-align: center;
+} 
+.css-1stf1pg-MuiTableCell-root.Cell-cell { 
+    border: none;
+}
+.Cell-text{
+    color: white !important;
+}
+.TodayButton-button:first-of-type:first-of-type {
+    color: black;
+    border: 1px solid #e1e1e3;
+    padding: 8px;
+    background-color: white;
+    border-radius: 1px;
+} 
+ .MuiSelect-outlined{
+    padding-right: 32px;
+    background-color: white !important;
+}
+.Demo-flexibleSpace .MuiInputBase-formControl {
+    background-color: white;
+    padding: 4px;
+    border: 1px solid #d6d6d6;
+}
+
+.drcp-provider-list .Demo-prioritySelectorItem{
+    display: none;
+}
+.css-1fklddj-MuiModal-root-MuiPopover-root .Layout-popover {
+     width: 302px !important;
+     background-color: #eeeeee !important; 
+}  
+.css-z0czpf.Demo-content{ 
+    padding: 0px 4px !important; 
+    background: #eeeeee !important; 
+}
+.css-uvgxe4.Demo-content{
+    background: #eeeeee !important; 
+}
+
+
+
+
+
+.MuiToolbar-regular {
+    background: #d2d3d657;
+}
+.Root-root {
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 1px;
+    padding: 2px 5px;
+}
+.Root-root button{
+  padding: 2px; 
+  color: black; 
+}

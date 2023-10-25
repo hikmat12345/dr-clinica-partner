@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
+
+.custom-styles {
+  --ReactInputVerificationCode-itemWidth: 2.5rem;
+  --ReactInputVerificationCode-itemHeight: 3.5rem;
+}
+.form-input-phone input{
+  background-color: initial !important;
+  border: none !important;
+}

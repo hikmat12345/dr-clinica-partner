@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+h1, p,h2,h3,h4,h5, div, ul, li{
+  font-family: 'Inter', sans-serif !important;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+h1, p,h2,h3,h4,h5, div, ul, li{
+    font-family: 'Gilda Display', serif !important;
+} */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .base-btn {
+    @apply py-[12px] px-4 font-medium rounded text-white;
+  }
+
+  .icon-btn {
+    @apply flex items-center gap-2 rounded-full bg-white py-2 px-4;
+  }
+} */

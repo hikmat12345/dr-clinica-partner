@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/favicon.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Assets -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/app.css" />
+    <style>
+      .css-71a9mb-MuiButtonBase-root-MuiIconButton-root.NavigationButton-button {
+        background-color: #f1efef;
+        border-radius: 7px;
+        margin-left: 12px;
+        border-radius: 2px;
+        padding: 5px;
+        color: black;
+      }
+      .css-18bo7dq.Root-root:first-of-type {
+        border: 1px solid gainsboro;
+        padding: 2px 5px;
+        border-radius: 1px;
+        background-color: white;
+      }
+
+      tr:first-of-type .css-bcntj2-MuiTableCell-root.Cell-horizontalCell {
+        border: none;
+      }
+      .providerimage {
+        width: 5rem !important;
+        height: 5rem;
+      }
+      .css-1iqhc3f-MuiFormControl-root {
+        margin: 1px 20px 0px 0px !important;
+      }
+      .VerticalAppointment-textContainer {
+        display: none;
+      }
+      .tr:last-child .css-ykqawh-MuiTableCell-root.Cell-cell {
+        display: none;
+      }
+      .css-1avkkmd.Container-container {
+        display: none !important;
+      }
+      .css-1ps6pg7-MuiPaper-root {
+        box-shadow: none !important;
+      }
+      .css-1b7ni76-MuiToolbar-root.Toolbar-toolbar {
+        background-color: #f2f2f7;
+        box-shadow: none;
+      }
+      .ca-tooltip {
+        padding-top: 5px;
+        text-transform: capitalize;
+      }
+      .VerticalAppointment-title div {
+        text-align: left;
+      }
+      .css-vnscjq-MuiButtonBase-root-MuiButton-root.OpenButton-textButton {
+        padding-right: 9px;
+        color: black;
+      }
+      .Cell-text {
+        margin: auto;
+        display: block !important;
+        text-align: center;
+      }
+      .css-1stf1pg-MuiTableCell-root.Cell-cell {
+        border: none;
+      }
+      .Cell-text {
+        color: white !important;
+      }
+      .css-xya8j6-MuiButtonBase-root-MuiButton-root.TodayButton-button:first-of-type {
+        margin-left: 14px !important;
+        color: black;
+        border: 1px solid #e1e1e3;
+        padding: 8px 13px;
+        background-color: white;
+        border-radius: 1px;
+      }
+      .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+        padding-right: 32px;
+        background-color: white;
+      }
+      .css-1nbvhrz-MuiInputBase-root-MuiInput-root-MuiSelect-root {
+        background-color: white;
+        padding: 4px 13px;
+        border: 1px solid #d6d6d6;
+      }
+
+      @media (max-width: 768px) {
+        .footer {
+          display: none;
+        }
+      }
+      .custom-styles .ReactInputVerificationCode__item {
+        position: relative;
+        color: #262626;
+        font-weight: 500;
+      }
+
+      .custom-styles .ReactInputVerificationCode__item,
+      .custom-styles .ReactInputVerificationCode__item.is-active {
+        box-shadow: none;
+      }
+
+      .custom-styles .ReactInputVerificationCode__item:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 2px;
+        background-color: #ebebeb;
+        transition: background-color 0.2s ease-out;
+      }
+      .MuiFormControl-root.css-1iqhc3f-MuiFormControl-root {
+        width: 294px;
+      }
+      .custom-styles .ReactInputVerificationCode__item.is-active:after {
+        background-color: #046cde;
+      }
+      .ant-select {
+        width: 30% !important;
+      }
+      /* This part contains all of the left side of the screen */
+      /* ----------------------------------------- */
+
+      #button-card {
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 10px 10px 1px 0px rgba(78, 205, 196, 0.2);
+        border-radius: 10px;
+      }
+
+      #leftbutton {
+        background-color: #512cf3;
+        border-radius: 5px;
+        color: #fafafa;
+      }
+
+      .cropper {
+        width: 660px;
+        height: 400px;
+      }
+
+      /* ----------------------------------------- */
+
+      /* This part contains all of the left side of the screen */
+      /* ----------------------------------------- */
+      #itemdivcard {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+      }
+
+      #imgPreview {
+        width: "100%";
+        height: "auto";
+      }
+
+      /* ----------------------------------------- */
+
+      /* Basic styling */
+      /* ----------------------------------------- */
+
+      .button {
+        outline: none !important;
+        background-color: #000 !important;
+        font-family: Lobster;
+        border: none;
+        font-size: 14px;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: -15px;
+        cursor: pointer;
+        margin-right: 2rem;
+      }
+
+      .button-disabled {
+        outline: none !important;
+        background-color: #d3d3d3 !important;
+        font-family: Lobster;
+        border: none;
+        font-size: 14px;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: -15px;
+        cursor: pointer;
+        margin-right: 2rem;
+      }
+
+      /* ----------------------------------------- */
+
+      .ul {
+        list-style: circle !important;
+        margin-left: 2rem;
+      }
+    </style>
+    <!-- Javascript Assets -->
+    <script src="%PUBLIC_URL%/js/app.js" defer></script>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Dr.Clinica</title>
+  </head>
+  <body class="is-header-blur" x-data x-bind="$store.global.documentBody">
+    <div
+      class="app-preloader fixed z-50 grid h-full w-full place-content-center bg-slate-50 dark:bg-navy-900"
+    >
+      <div class="app-preloader-inner relative inline-block h-48 w-48"></div>
+    </div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <div id="x-teleport-target"></div>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => Alpine.start());
+    </script>
+  </body>
+</html>
